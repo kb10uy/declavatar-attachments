@@ -1,1 +1,66 @@
-{"dependencies": {}, "locked": {}}
+{
+  "dependencies": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.27"
+    },
+    "com.vrchat.avatars": {
+      "version": "3.5.0"
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.3.1"
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.9.0-rc.0"
+    },
+    "org.kb10uy.declavatar": {
+      "version": "3.0.0-beta.3"
+    }
+  },
+  "locked": {
+    "com.vrchat.core.vpm-resolver": {
+      "version": "0.1.27",
+      "dependencies": {}
+    },
+    "com.vrchat.avatars": {
+      "version": "3.5.0",
+      "dependencies": {
+        "com.vrchat.base": "3.5.0"
+      }
+    },
+    "com.vrchat.base": {
+      "version": "3.5.0",
+      "dependencies": {}
+    },
+    "nadena.dev.ndmf": {
+      "version": "1.3.1",
+      "dependencies": {}
+    },
+    "nadena.dev.modular-avatar": {
+      "version": "1.9.0-rc.0",
+      "dependencies": {
+        "com.vrchat.avatars": ">=3.2.0",
+        "nadena.dev.ndmf": ">=1.3.0-rc.0 <2.0.0-a"
+      }
+    },
+    "org.kb10uy.declavatar": {
+      "version": "3.0.0-beta.3",
+      "dependencies": {
+        "nadena.dev.ndmf": ">=1.3.0",
+        "nadena.dev.modular-avatar": ">=1.9.0-rc.0",
+        "dev.hai-vr.animator-as-code.v1": ">=1.0.9920",
+        "dev.hai-vr.animator-as-code.v1.vrchat": ">=1.0.9920"
+      }
+    },
+    "dev.hai-vr.animator-as-code.v1": {
+      "version": "1.0.9930",
+      "dependencies": {}
+    },
+    "dev.hai-vr.animator-as-code.v1.vrchat": {
+      "version": "1.0.9930",
+      "dependencies": {
+        "dev.hai-vr.animator-as-code.v1": "^1.0.0",
+        "com.vrchat.avatars": "^3.3.0"
+      }
+    }
+  }
+}
