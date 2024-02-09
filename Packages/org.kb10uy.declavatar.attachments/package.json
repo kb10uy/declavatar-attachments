@@ -1,0 +1,21 @@
+{
+  "name": "org.kb10uy.declavatar.attachments",
+  "displayName": "Declavatar Attachments Library",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "Arbitrary Attachments (Arbittach) Library for declavatar",
+  "vrchatVersion": "2022.1.1",
+  "author": {
+    "name": "kb10uy",
+    "email": "kb10uy@kb10uy.org",
+    "url": "https://kb10uy.org"
+  },
+  "vpmDependencies": {
+    "nadena.dev.ndmf": ">=1.3.0",
+    "nadena.dev.modular-avatar": ">=1.9.0-rc.0",
+    "org.kb10uy.declavatar": ">=3.0.0-beta.3"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "2.0.0"
+  }
+}
